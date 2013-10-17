@@ -1,4 +1,8 @@
-WORDS = %w(orange)
+WORDS = %w(abbey, bagpipes, cobweb, daiquiri, equip, 
+  fishhook, galaxy, haiku, icebox, jaundice, kazoo, larynx, 
+  marquis, nightclub, ovary, pajama, quartz, razzmatazz, 
+  schizophrenia, topaz, unworthy, vaporize, walkway, 
+  xylophone, yachtsman, zephyr)
 
   @word = WORDS.sample
   @hidden_letters = Array.new(@word.length, '_').join
